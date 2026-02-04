@@ -3,10 +3,86 @@
 <html>
 
 <head>
+	 <title>Pricing Card</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Card */
+        .card {
+            width: 320px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        /* Image */
+        .card img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        /* Title */
+        .card h1 {
+            font-size: 28px;
+            margin: 15px 0 10px;
+        }
+
+        /* Price */
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        /* Description */
+        .description {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Button */
+        .card button {
+            padding: 12px 30px;
+            background-color: #ff6b5c;
+            color: #ffffff;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background-color: #ff5747;
+        }
+    </style>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+	 <div class="card">
+        <img src="Screenshot 2026-02-04 160647.png" alt="Heart Tree">
+
+        <h1>Pricing Card</h1>
+
+        <p class="price">Price: Rs.200</p>
+
+        <p class="description">
+            Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+
+        <button>Buy Now</button>
+    </div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
